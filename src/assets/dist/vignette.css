@@ -1,0 +1,99 @@
+.cardsContainer .vignette-section {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  border: 2px solid #ccc;
+  padding: 16px;
+  margin-top: 16px;
+}
+.cardsContainer .vignette-input-car-number,
+.cardsContainer .vignette-input-car-vin {
+  color: #000;
+  background: #f1f1f1;
+  border-radius: 10px;
+  font-weight: 800;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 15px 20px;
+  border: 3px solid transparent;
+  caret-color: #a0a0a0;
+  padding: 18px 20px;
+  height: 59px;
+}
+.cardsContainer .vignette-car-info-row .vignette-car-types-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.cardsContainer .vignette-car-info-row .vignette-cards-item {
+  background-color: #fff;
+  border-radius: 25px;
+  padding: 15px;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.cardsContainer .vignette-car-info-row .vignette-cards-item h2 {
+  color: #000;
+}
+.cardsContainer .vignette-car-info-row .vignette-cards-item.active {
+  background-color: #00a3ff;
+}
+.cardsContainer .vignette-car-info-row .vignette-cards-item.active h2 {
+  color: #fff;
+}
+.cardsContainer .vignette-select-wrapper {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  gap: 15px;
+}
+.cardsContainer .vignette-select-wrapper .countryBlock {
+  text-align: center;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 5px;
+  color: #000;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.cardsContainer .vignette-select-wrapper .countryBlock.active {
+  box-shadow: inset 1px 1px 15px 1px #00a3ff;
+}
+.cardsContainer .vignette-btn {
+  cursor: pointer;
+  padding: 5px 10px;
+  background-color: #000;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 12px;
+  font-weight: 700;
+  margin-top: 10px;
+  background-color: #00a3ff;
+}
+.cardsContainer .vignette-price-row {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.cardsContainer .vignette-price-row .vignette-price-item {
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 12px;
+  cursor: pointer;
+  color: #000;
+  transition: all 0.3s;
+}
+.cardsContainer .vignette-price-row .vignette-price-item.active {
+  background-color: #00a3ff;
+  color: #fff;
+}
+.cardsContainer .vignette-price-row .vignette-price-item:hover {
+  background-color: #00a3ff;
+  color: #fff;
+}
